@@ -1,9 +1,11 @@
-# ibb-trafik-veri-analiz
+# ibb-trafik-veri-analiz :tada:
 Bu projede İBB'nin paylaştığı 2019 yılı trafik veri seti üzerinde aşağıda tanımlanan hipotezlerin analizleri yapılacaktır.
 
 **NOT:** Veri setinin ham halinde yalnızca tarih ve trafik indeksi yer almaktadır. Verinin son hali [buradan](https://github.com/skurmus/2019istanbultrafikverisi) alınmıştır.
 
-## Hipotezler
+
+
+## Hipotezler :bookmark:
 
 - Ekim ayının pazartesi günleri Haziran ayının Pazartesi günlerinden daha fazla trafik olur.
 * Haftasonu sabahları haftaiçinden daha az trafik olur.
@@ -14,7 +16,17 @@ Bu projede İBB'nin paylaştığı 2019 yılı trafik veri seti üzerinde aşağ
 
 
 
-## Kaynaklar
+## Kullanım :computer:
+
+```shell
+pip install -r requirements.txt
+```
+
+Ardından notebook üzerinde tüm hücreleri çalıştırabilirsiniz.
+
+
+
+## Kaynaklar:recycle:
 
 - https://data.ibb.gov.tr/dataset/trafik-indeks-raporu
 - https://pandas.pydata.org/pandas-docs/stable/index.html
